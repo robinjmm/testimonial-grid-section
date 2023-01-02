@@ -1,0 +1,7 @@
+@use "../base/variables" as *;
+
+.fa-github {
+    color: var(--bg-black);
+    cursor: pointer;
+    font-size: toRem(30px);
+}

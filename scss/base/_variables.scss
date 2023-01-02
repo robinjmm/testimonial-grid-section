@@ -1,0 +1,26 @@
+:root {
+    // Font Colors
+    --text-color-primary: hsl(0, 0%, 100%);
+    --text-color-secondary: hsl(0, 0%, 81%);
+    --text-color-dark: hsl(217, 19%, 35%);
+
+    // Background Colors
+    --bg-body:  hsl(210, 46%, 95%);
+    --bg-violet: hsl(263, 55%, 52%);
+    --bg-gray: hsl(217, 19%, 35%);
+    --bg-black: hsl(219, 29%, 14%);
+    --bg-white: hsl(0, 0%, 100%);
+
+    // Font Families
+	--ff-primary: 'Barlow Semi Condensed', sans-serif;
+
+    // Font Weights
+	--fw-normal: 500;
+    --fw-bold: 600;
+}
+
+// Convert pixel values to rem
+@function toRem($value) {
+    $remValue: calc(($value / 16px) * 1rem);
+    @return $remValue;
+}
