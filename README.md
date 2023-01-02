@@ -3,10 +3,10 @@
 
 ## Links:
 - [Challenge Link](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
-- [Site Preview](https://robinjmm-product-preview.vercel.app/)
+- [Site Preview](https://robinjmm-testimonials.vercel.app/)
 
 ## About
-This is my solution for the Testimonials Grid Section challenge from Frontendmentor.io [Frontendmentor.io](https://frontendmentor.io).
+This is my solution for the Testimonials Grid Section challenge from [Frontendmentor.io](https://frontendmentor.io).
 
 ## User Stories
 The user should be able to:
