@@ -8,7 +8,7 @@
     font-size: toRem(13px);
     font-family: var(--ff-primary);
     font-weight: var(--fw-normal);
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
 
     &:last-of-type {
         margin-bottom: 0;
@@ -18,11 +18,6 @@
         background-color: var(--bg-violet);
         position: relative;
         z-index: 2;
-
-        & p {
-            position: relative;
-            z-index: 3;
-        }
     }
 
 	&--gray {
@@ -90,6 +85,8 @@
         font-weight: var(--fw-bold);
         margin-bottom: 15px;
         line-height: 1.3;
+        z-index: 3;
+        position: relative;
 
         &--dark {
             color: var(--text-color-dark);
