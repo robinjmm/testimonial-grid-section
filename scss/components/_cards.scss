@@ -94,6 +94,11 @@
         &--dark {
             color: var(--text-color-dark);
         }
+
+		& span::before {
+            content: "\A";
+            white-space: pre;
+        }
     }
 
 	&__text {
