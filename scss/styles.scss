@@ -1,11 +1,11 @@
-@import "base/reset";
+@use "base/reset";
 
-@import "base/defaults";
+@use "base/defaults";
 
-@import "components/cards";
+@use "components/cards";
 
-@import "components/link-icons";
+@use "components/link-icons";
 
-@import "layout/home";
+@use "layout/home";
 
-@import "layout/media-queries";
+@use "layout/media-queries";
