@@ -2,10 +2,10 @@
 
 .card {
     width: 325px;
-    margin: 0 auto 25px;
-    padding: 25px 30px 35px;
+    font-size: toRem(13);
+    margin: 0 auto toRem(25);
+	padding: toRem(25) toRem(30) toRem(35);
     border-radius: 10px;
-    font-size: toRem(13px);
     font-family: var(--ff-primary);
     font-weight: var(--fw-normal);
     box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
@@ -34,8 +34,8 @@
 
 	&__header {
         display: flex;
-        gap: 15px;
-        margin-bottom: 15px;
+        gap: toRem(15);
+        margin-bottom: toRem(15);
         font-stretch: semi-condensed;
     }
 
@@ -80,10 +80,10 @@
 
 	&__heading {
         color: var(--text-color-primary);
-        font-size: toRem(20px);
+        font-size: toRem(20);
         font-stretch: semi-condensed;
         font-weight: var(--fw-bold);
-        margin-bottom: 15px;
+        margin-bottom: toRem(15);
         line-height: 1.3;
         z-index: 3;
         position: relative;

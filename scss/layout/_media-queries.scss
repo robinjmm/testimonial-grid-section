@@ -1,6 +1,6 @@
 @use "../base/variables" as *;
 
-@media (max-width: 320px) {
+@media (max-width: 20rem) {
     .card {
         width: 300px;
 
@@ -10,7 +10,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 75rem) {
     main {
         width: 1100px;
         height: 100%;
@@ -18,7 +18,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
-        gap: 30px;
+        gap: toRem(30);
     }
 
 	.card {
