@@ -14,10 +14,12 @@ body {
 	min-height: 100vh;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	font-family: system-ui;
 }
 
 li,
-ol {
+ol,
+ul {
 	list-style: none;
 }
 
