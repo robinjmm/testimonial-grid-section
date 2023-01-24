@@ -1,6 +1,6 @@
 import {defineConfig} from "vite";
 import {createHtmlPlugin} from "vite-plugin-html";
-import autoprefixer from "autoprefixer";
+import postcssPresetEnv from "postcss-preset-env";
 import purgeCSSPlugin from "@fullhuman/postcss-purgecss";
 
 export default defineConfig({
@@ -12,7 +12,7 @@ export default defineConfig({
 	css: {
         postcss: {
             plugins: [
-                autoprefixer,
+                postcssPresetEnv,
 				purgeCSSPlugin({
 					content: ["index.html"],
 					variables: true,
